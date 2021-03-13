@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+.table {
+  padding: 20px;
+  user-select: none;
+}
+.day{
+  padding: 1em;
+  background-color: rgb(76, 145, 97);
+  text-align: center;
+  color: rgb(239, 255, 11);
+  font-size: 19px;
+  border-radius: 22px;
+}
+.day:hover{
+  background-color: #93b3a9;
+  cursor: pointer;
+}
+.today {
+  background-color: #00379e;
+  color: #fff;
+}
+.output{
+    background-color: green;
+}
+.in-prev-month,
+.in-next-month {
+  background-color: #93b3a9;
+  border-radius: 50%;
+  opacity: 0.4;
+  text-align: center;
+}
+.title{
+    text-align: center;
+}
+.calendar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &-button{
+    background-color: #4c9161;
+    color: white;
+    padding: 13px;
+    margin: 5px;
+  }
+}
