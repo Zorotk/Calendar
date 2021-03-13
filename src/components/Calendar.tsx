@@ -7,6 +7,8 @@ const Calendar: FC = () => {
   const [selectDay, setSelectDay] = React.useState<string>('не выбрана');
   const dateClickHandler = (date: string) => {
     setSelectDay(date)
+    console.log(date);
+    
   }
 
   return (
