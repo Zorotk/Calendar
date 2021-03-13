@@ -1,4 +1,4 @@
-Deploy: https://clever-sammet-27432e.netlify.app
+Deploy - https://clever-sammet-27432e.netlify.app
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
