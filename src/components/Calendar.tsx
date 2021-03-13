@@ -6,9 +6,7 @@ const Calendar: FC = () => {
   const { calendarRows, selectedDate, todayFormatted, daysShort, monthNames, getNextMonth, getPrevMonth } = useCalendar();
   const [selectDay, setSelectDay] = React.useState<string>('не выбрана');
   const dateClickHandler = (date: string) => {
-    setSelectDay(date)
-    console.log(date);
-    
+    setSelectDay(date)   
   }
 
   return (
