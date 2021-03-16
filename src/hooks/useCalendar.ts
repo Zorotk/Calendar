@@ -23,6 +23,10 @@ const useCalendar = (daysShort = daysShortArr, monthNames = monthNamesArr) => {
   const todayFormatted = `${today.getDate()}-${today.getMonth() + 1}-${today.getFullYear()}`;
   const daysInWeek = [1, 2, 3, 4, 5, 6, 0];
   const [selectedDate, setSelectedDate] = useState(today);
+
+
+
+
   const selectedMonthLastDate = new Date(selectedDate.getFullYear(), selectedDate.getMonth() + 1, 0);
   const prevMonthLastDate = new Date(selectedDate.getFullYear(), selectedDate.getMonth(), 0);
   const daysInMonth = selectedMonthLastDate.getDate();

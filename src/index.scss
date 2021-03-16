@@ -10,12 +10,31 @@
 }
 .day{
   padding: 1em;
-  background-color: rgb(76, 145, 97);
+  background-color: rgb(219, 169, 87);
   text-align: center;
   color: rgb(239, 255, 11);
   font-size: 19px;
   border-radius: 22px;
+ 
 }
+.panel-button-select{
+  display: flex;
+  color: #4c9161;
+}
+.panel-button-select>div{
+  padding: 12px;
+  margin: 5px;
+  cursor: pointer;
+border: 1px solid black;
+
+}
+
+.select{
+    background-color: green;
+  }
+  .selected{
+    background-color: rgb(140, 0, 255);
+  }
 .day:hover{
   background-color: #93b3a9;
   cursor: pointer;
