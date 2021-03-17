@@ -9,24 +9,24 @@
   user-select: none;
 }
 .day{
-  padding: 1em;
-  background-color: rgb(219, 169, 87);
+  padding: 2em;
+  background-color: rgb(219, 140, 87);
   text-align: center;
   color: rgb(239, 255, 11);
-  font-size: 19px;
+  font-size: 21px;
   border-radius: 22px;
  
 }
 .panel-button-select{
   display: flex;
   color: #4c9161;
+ 
 }
 .panel-button-select>div{
   padding: 12px;
-  margin: 5px;
+  margin: 5px;    
+  border: 2px solid rgb(140, 0, 255);
   cursor: pointer;
-border: 1px solid black;
-
 }
 
 .select{

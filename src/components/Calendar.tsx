@@ -75,8 +75,7 @@ const Calendar: FC = () => {
                       {col.value}
                     </td>
                   }
-                  // const className = `${col.classes} ${selected ? '' : ` select`}
-                  //      ${between ? ` selected` : ''}`
+
                   const className = [
                     col.classes,
                     selected ? '' : `select`,
