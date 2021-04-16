@@ -5,38 +5,43 @@
   outline: none;
 }
 .table {
+  margin:0 auto ;
   padding: 20px;
   user-select: none;
 }
+.calendar-panel-btn{
+    display: flex;
+    justify-content: center;
+}
 .day{
   padding: 2em;
-  background-color: rgb(219, 140, 87);
+  background-color: rgb(0, 17, 255);
   text-align: center;
-  color: rgb(239, 255, 11);
-  font-size: 21px;
-  border-radius: 22px;
- 
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 3px; 
 }
+
 .panel-button-select{
   display: flex;
   color: #4c9161;
- 
 }
 .panel-button-select>div{
   padding: 12px;
   margin: 5px;    
-  border: 2px solid rgb(140, 0, 255);
+  border: 2px solid rgb(0, 17, 255);
   cursor: pointer;
 }
 
 .select{
     background-color: green;
+    border:1px solid #034e16; 
   }
   .selected{
-    background-color: rgb(140, 0, 255);
+    background-color: rgb(71, 71, 71);
   }
 .day:hover{
-  background-color: #93b3a9;
+  opacity: .9;
   cursor: pointer;
 }
 .today {
@@ -49,22 +54,26 @@
 .in-prev-month,
 .in-next-month {
   background-color: #93b3a9;
-  border-radius: 50%;
+  border-radius: 10%;
   opacity: 0.4;
   text-align: center;
 }
 .title{
     text-align: center;
 }
-.calendar{
+.calendar-info{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.calendar{
+
   &-button{
     background-color: #4c9161;
     color: white;
     padding: 13px;
     margin: 5px;
+    border: 2px solid green;
   }
 }

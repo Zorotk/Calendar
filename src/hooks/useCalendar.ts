@@ -51,8 +51,6 @@ const useCalendar = (daysShort = daysShortArr, monthNames = monthNamesArr) => {
                 ? selectedDate.getFullYear() - 1
                 : selectedDate.getFullYear()}`,
             value: prevMonthStartingPoint
-
-
           }];
           prevMonthStartingPoint++;
         } else {
@@ -99,5 +97,5 @@ const useCalendar = (daysShort = daysShortArr, monthNames = monthNamesArr) => {
     getNextMonth
   }
 }
-
 export default useCalendar;
+
